@@ -8,7 +8,8 @@ class Car {
     
     printDataCar() { //Metodos
         console.log(this.driver) // Imprime una tabla con todos los datos
-        console.log(this.driver.name) // Imprime solamente el name dentro del objeto driver
-        console.log(this.driver.document) //Imprime solamente el document dentro del objeto driver.
+        console.log("Name: " + this.driver.name) // Imprime solamente el name dentro del objeto driver
+        console.log("Document: " + this.driver.document) //Imprime solamente el document dentro del objeto driver.
+        console.log("Licence: " + this.license)
     }
 }
