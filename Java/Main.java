@@ -3,6 +3,10 @@ class Main {
         System.out.println("Hola Mundo");
         UberX uberX = new UberX("AMQ145", new Account("Andres Herrera", "And123"), "Mazda", "3");
         uberX.setPassenger(4);
+        
+        UberVan uberVan = new UberVan("ASS222", new Account("Jorge Mejicanos", "323908"));
+        uberVan.setPassenger(6);
+
         /*uberX.passegenger = 3;
         /* 
         Instancia de la clase
@@ -14,5 +18,6 @@ class Main {
         */
 
         uberX.printDataCar();
+        uberVan.printDataCar();
     }
 }

@@ -7,4 +7,13 @@ class UberX extends Car{ /* extends es la palabra clave para heredar, entonces U
         this.brand = brand;/* Atributos Propios de la clase uberx */
         this.model = model;
     }
+
+    @Override
+    void printDataCar() {
+        // TODO Auto-generated method stub
+        super.printDataCar();
+        if(passegenger != null){
+            System.out.println("Brand: " + brand + " Model: " + model);
+        }
+    }
 }
