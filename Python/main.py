@@ -15,6 +15,7 @@ def run():
     print(vars(user1))
 
     driver1 = Driver(user1.name, user1.document)
+    driver1.id = 3239087130512
     print("varDriver: ")
     print(vars(driver1))
 if __name__ == "__main__":

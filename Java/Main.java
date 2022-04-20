@@ -1,7 +1,9 @@
 class Main {
     public static void main(String[] args) {
         System.out.println("Hola Mundo");
-        Car car = new Car("AMQ145", new Account("Andres Herrera", "And123"));
+        UberX uberX = new UberX("AMQ145", new Account("Andres Herrera", "And123"), "Mazda", "3");
+        uberX.setPassenger(4);
+        /*uberX.passegenger = 3;
         /* 
         Instancia de la clase
         Car car = new Car()
@@ -11,6 +13,6 @@ class Main {
         Y como driver hereda de Account se llamara a name y document que seran los datos de driver
         */
 
-        car.printDataCar();        
+        uberX.printDataCar();
     }
 }
